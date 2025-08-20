@@ -4,13 +4,13 @@
 
 ----
 
-**Functionalities**
+📌 **Functionalities**
 
- - **Extracts latitude and longitude of images**
- - **Geocoding reverse: street, city, state, country, CEP**
- - **Create interactive map with Folium**
- - **Support for analysis of multiple images**
- - **Beautiful terminal interface with Rich**
+📍 **Extract GPS coordinates — retrieve latitude and longitude directly from images.**
+🏠 **Reverse geocoding — convert coordinates into full addresses (street, city, state, country, ZIP/CEP).**
+🗺️ **Interactive map generation — automatically create maps with Folium for easy visualization.**
+📂 **Batch analysis — support for analyzing multiple images at once.**
+🎨 **Modern terminal interface — clean and elegant UI powered by Rich.**
 
 ---
 
