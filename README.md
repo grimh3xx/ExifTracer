@@ -1,19 +1,20 @@
-## ExifTracer
+**ExifTracer**
 
-## 📸 Analyzes images, extracts EXIF data, GPS location and displays full address.
+📸 **Analyzes images, extracts EXIF data, GPS location and displays full address.**
+
+----
+
+**Functionalities**
+
+ - **Extracts latitude and longitude of images**
+ - **Geocoding reverse: street, city, state, country, CEP**
+ - **Create interactive map with Folium**
+ - **Support for analysis of multiple images**
+ - **Beautiful terminal interface with Rich**
+
 ---
 
-## Functionalities
-
-## - Extracts latitude and longitude of images
-## - Geocoding reverse: street, city, state, country, CEP
-## - Create interactive map with Folium
-## - Support for analysis of multiple images
-## - Beautiful terminal interface with Rich
-
----
-
-## Instalation
+**Instalation**
 
 ```bash
 git clone <seu-repo>
@@ -24,20 +25,21 @@ source .venv/bin/activate      # Linux/macOS
 pip install -r requirements.txt
 ```
 
-## Example to execution
+**Example to execution**
 
 ```bash
-~/ExifTracer ❯ /home/youruser/ExifTracer/.venv/bin/python /home/youruser/ExifTracer/main.py    
-                                          ╭────────────── ExifTracer ───────────────╮                                          
-                                          │                                         │                                          
-                                          │  [*] ExifTracer Interactive Panel [*]   │                                          
-                                          │ [+] Escolha uma opção para começar: [+] │                                          
-                                          │                                         │                                          
-                                          │       [1] 🖼️  Analisar uma imagem        │                                          
-                                          │   [2] 📂  Analisar múltiplas imagens    │                                          
-                                          │              [0] ❌  Sair               │                                          
-                                          │                                         │                                          
-                                          ╰─────────────────────────────────────────╯                                          
+~/ExifTracer ❯ /home/youruser/ExifTracer/.venv/bin/python /home/youruser/ExifTracer/main.py
+    
+╭────────────── ExifTracer ───────────────╮                                          
+│                                         │                                          
+│  [*] ExifTracer Interactive Panel [*]   │                                          
+│ [+] Escolha uma opção para começar: [+] │                                          
+│                                         │                                          
+│       [1] 🖼️  Analisar uma imagem       │                                          
+│   [2] 📂  Analisar múltiplas imagens    │                                          
+│              [0] ❌  Sair               │                                          
+│                                         │                                          
+╰─────────────────────────────────────────╯                                          
 Digite sua escolha ➜ 1
 Digite o caminho da imagem ➜ /home/youruser/Documents/test_gps.jpg 
 Você escolheu analisar a imagem ➜ /home/youruser/Documents/test_gps.jpg
