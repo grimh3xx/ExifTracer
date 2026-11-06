@@ -1,5 +1,10 @@
 <img src="docs/banner.svg" alt="ExifTracer" width="100%">
 
+[![build](https://img.shields.io/github/actions/workflow/status/grimh3xx/ExifTracer/build.yml?branch=main&style=flat-square&labelColor=111826&label=build)](https://github.com/grimh3xx/ExifTracer/actions)
+[![license](https://img.shields.io/github/license/grimh3xx/ExifTracer?style=flat-square&labelColor=111826&color=22D3EE)](LICENSE)
+![python](https://img.shields.io/badge/python-3.10%2B-3B82F6?style=flat-square&labelColor=111826)
+![OSINT](https://img.shields.io/badge/OSINT-forensics-22D3EE?style=flat-square&labelColor=111826)
+
 📸 **Analyzes images, extracts EXIF data, GPS location and displays full address.**
 
 ----
