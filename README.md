@@ -1,4 +1,4 @@
-**ExifTracer**
+<img src="docs/banner.svg" alt="ExifTracer" width="100%">
 
 📸 **Analyzes images, extracts EXIF data, GPS location and displays full address.**
 
