@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exiftracer"
+dynamic = ["version"]
+description = "Find what your images give away (location, device, owner, time), map it, and strip it"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "grimh3xx" }]
+keywords = ["exif", "metadata", "gps", "osint", "forensics", "privacy", "geolocation"]
+dependencies = ["Pillow>=10", "rich>=13", "requests>=2.31", "folium>=0.15"]
+classifiers = [
+    "Environment :: Console",
+    "Programming Language :: Python :: 3",
+    "Topic :: Security",
+    "Topic :: Multimedia :: Graphics",
+]
+
+[project.optional-dependencies]
+heic = ["pillow-heif>=0.16"]
+
+[project.urls]
+Homepage = "https://centraltechpc.com"
+Repository = "https://github.com/grimh3xx/ExifTracer"
+
+[project.scripts]
+exiftracer = "exiftracer.cli:main"
+
+[tool.setuptools]
+packages = ["exiftracer"]
+
+[tool.setuptools.dynamic]
+version = { attr = "exiftracer.__version__" }

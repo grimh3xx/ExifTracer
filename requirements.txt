@@ -1,5 +1,5 @@
-Pillow
-folium
-requests
-rich
-geopy
+Pillow>=10
+rich>=13
+requests>=2.31
+folium>=0.15
+pillow-heif>=0.16
