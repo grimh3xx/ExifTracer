@@ -108,4 +108,4 @@ most jurisdictions.
 
 ## License
 
-[MIT](LICENSE) © grimh3xx · CentralTech
+[MIT](LICENSE) © grimh3xx

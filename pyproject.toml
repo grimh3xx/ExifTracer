@@ -23,7 +23,7 @@ classifiers = [
 heic = ["pillow-heif>=0.16"]
 
 [project.urls]
-Homepage = "https://centraltechpc.com"
+Homepage = "https://github.com/grimh3xx"
 Repository = "https://github.com/grimh3xx/ExifTracer"
 
 [project.scripts]
